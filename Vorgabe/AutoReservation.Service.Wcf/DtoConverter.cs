@@ -121,6 +121,8 @@ namespace AutoReservation.Service.Wcf
                 ReservationNr = reservation.ReservationNr,
                 Von = reservation.Von,
                 Bis = reservation.Bis,
+                //Auto = reservation.Auto,
+                //Kunde = reservation.Kunde
                 Auto = ConvertToDto(reservation.Auto),
                 Kunde = ConvertToDto(reservation.Kunde)
             };
